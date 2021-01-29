@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 18px;
+    align-items: center;
+    background-color: #202020;
+}
+.logo i {
+    font-size: 30px;
+    color: red;
+}
+.logo span {
+    color: #fff;
+    font-size: 30px;
+}
+.search input {
+    width: 500px;
+    height: 30px;
+    color:#fff;
+    font-size: 15px;
+    background: #121212;
+    border: 1px solid gray;
+    opacity: 0.8;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+.search input:focus {
+    outline: none;
+    border: 1px solid rgb(56, 56, 155);
+    border-radius: 2px;
+}
+.icons i {
+    font-size: 20px;
+    color: #fff;
+    padding-right: 20px;
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+.left-block {
+    background-color: #212121;
+    width: 210px;
+    height: 575px;
+    overflow: hidden;
+}
+.left-block:hover {
+    overflow: auto;
+    width: 230px;
+}
+.left-block ul {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.left-block ul li {
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    list-style: none;
+    padding-bottom: 20px;
+}
+.first-icon {
+    padding-right: 15px;
+    color: gray;
+}
+.mid-icon {
+    padding-right: 19px;
+    color: gray;
+}
+.last-icon {
+    padding-right: 15px;
+    color: gray;
+}
+.left-block ul li:last-child {
+    border-bottom: 2px solid gray;
+}
+.left-block ul:last-child  li:last-child {
+    border: 0px;
+}
+.artist li img {
+    width: 23px;
+    width: 23px;
+    padding-right: 13px;
+    border-radius: 30px;
+}
+.right-block {
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    height: 575px;
+    padding: 0px 40px;
+    background-color: #181818;
+    overflow: auto;
+}
+.box {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.box img {
+    width: 200px;
+    height: 130px;
+    border-radius: 5px;
+}
+.box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.box-container:last-child {
+    border-bottom: 0px;
+}
+.title {
+    margin-top: 6px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+}
+.page-owner {
+    display: block;
+    margin-top: 6px;
+    color: rgb(187, 184, 184);
+}
+.display span {
+    font-size: 13px;
+    color: rgb(187, 184, 184);
+}
+.dot {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    border-radius: 10px;
+    
+}
